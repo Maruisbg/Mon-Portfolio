@@ -1,0 +1,287 @@
+
+
+
+body {
+/*width: 700px;
+height: 100vh;*/
+margin-left: auto;
+margin-right: auto;
+background-color: beige;
+font-family: "poppins";
+}
+
+/*.conteneur {
+    width: 1000px;
+    height: 200vh;
+    background-color: white;
+    
+}*/
+
+.Barre-de-navigation {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /*width: 850px;*/
+    height: 13vh;
+    justify-content: space-between;
+}
+
+span{
+    color: blueviolet;
+}
+
+#mon-nom {
+    color: blueviolet;
+}
+#mini-barre {
+    display: flex;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+#logo {
+    margin-left: 80px;
+}
+
+#boutton1 {
+    margin-top: 5px;
+    margin-right: 80px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+#boutton2 {
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+
+#boutton3 {
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+
+.Présentation {
+    display: flex;
+    background-color: rgb(215, 198, 224);
+}
+
+.nom-et-autre {
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.mon-cv-et-réalisation {
+    display: flex;
+}
+
+#para1 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.paragraphe1{
+    font-size: 14px;
+}
+
+/*.sous-pre{
+    display: flex;
+    flex-direction: column;
+}*/
+
+.image1 {
+    background-image: url();
+    margin-left: 90px;
+    margin-top: 35px;
+    margin-bottom: -4px;
+
+}
+
+/*Bas-de-la-présentation*/
+
+.Bas-de-la-présentation {
+    background-color: black;
+    color: white;
+    margin-bottom: -20px;
+    padding-top: 2px;
+    padding-bottom: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-milieu {
+    
+    font-size: small;
+}
+
+#para2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-plus {
+    display: flex;
+    gap: 150px;
+    margin-left: 150px;
+}
+
+.plus1 {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+#plus {
+     padding: 0;
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: -10px;
+    color: rgb(201, 130, 130);
+}
+
+/* Services*/
+.Services{
+    background-color: white;
+    color: black;
+    margin-bottom: -23px;
+    /*padding-left: 80px;
+    padding-right: 80px;*/
+}
+
+.section-service{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 14px;
+}
+
+.dic-sevice1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.service2{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titre-h3{
+    font-size: 25px;
+}
+
+.attribue{
+    font-weight: bold;
+}
+
+/* Mes réalisations*/
+.réalisations{
+    
+    /*margin-bottom: -22px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;*/
+}
+
+.sous-réalisation1{
+    background-color: rgb(215, 198, 224);
+    margin-bottom: -100px;
+    padding-bottom: 130px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.sous-réalisation2{
+    padding-left: 80px;
+   /* background-color: beige;*/
+   margin-bottom: 100px;
+}
+
+
+.sect1{
+    text-align: center;
+}
+
+.sect2{
+    display: flex;
+    gap: 70px;
+}
+
+.sect3{
+    display: flex;
+    gap: 70px;
+}
+
+
+
+.img-but{
+    display: flex;
+    gap: 20px;
+}
+
+.cercle-fleche{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+
+/* Mes compétences */
+.compétences{
+    background-color: beige;
+    margin-bottom: -24px;
+    padding-left: 80px;
+}
+
+.sous-compétence{
+    text-align: center;
+}
+
+.pourcent{
+    display: flex;
+    gap: 300px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+h5{
+    font-size: 10px;
+}
+
+
+/* Témpoignages */
+.Témoignages{
+    background-color: rgb(215, 198, 224);
+    margin-bottom: -18px;
+    padding-left: 80px;
+}
+
+
+/* Contactez-nous */
+.Contactez-nous{
+    background-color: white;
+    padding-left: 80px;
+}
