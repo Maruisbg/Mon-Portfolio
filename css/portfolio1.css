@@ -279,6 +279,10 @@ h5{
     padding-left: 80px;
 }
 
+.Témoignages{
+    display: flex;
+}
+
 
 /* Contactez-nous */
 .Contactez-nous{
