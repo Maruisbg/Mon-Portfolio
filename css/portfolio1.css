@@ -1,4 +1,9 @@
 
+ @media (max-width: 768px) {
+    body {
+      background-color: lightblue;
+}
+}
 
 
 body {
@@ -193,210 +198,16 @@ span{
 }
 
 /* Mes réalisations*/
-.réalisations{
-    
-    /*margin-bottom: -22px;
-    padding-left: 80px;
-    padding-top: 30px;
-    padding-bottom: 30px;*/
-}
-
-.sous-réalisation1{
-    background-color: rgb(215, 198, 224);
-    margin-bottom: -100px;
-    padding-bottom: 130px;
-    padding-left: 80px;
-    padding-top: 30px;
-}
-
-.sous-réalisation2{
-    padding-left: 80px;
-   /* background-color: beige;*/
-   margin-bottom: 100px;
-}
-
-
-.sect1{
-    text-align: center;
-}
-
-.sect2{
-    display: flex;
-    gap: 70px;
-}
-
-.sect3{
-    display: flex;
-    gap: 70px;
-}
-
-
-
-.img-but{
-    display: flex;
-    gap: 20px;
-}
-
-.cercle-fleche{
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    background-color: blueviolet;
-}
-
-#but3{
-    margin-left: 200px;
-}
-
-#but2{
-    margin-left: 180px;
-}
-
-#but1{
-    margin-left: 90px;
-}
-
-#but4{
-    margin-left: 40px;
-}
 
 
 /* Mes compétences */
-.compétences{
-    background-color: beige;
-    margin-bottom: -24px;
-    padding-left: 80px;
-}
-
-.sous-compétence{
-    text-align: center;
-}
-
-.pourcent{
-    display: flex;
-    gap: 300px;
-    margin-left: 350px;
-    margin-bottom: 50px;
-    font-size: 10px;
-}
-h5{
-    font-size: 10px;
-}
 
 
 /* Témpoignages */
-.Témoignages{
-    background-color: rgb(215, 198, 224);
-    margin-bottom: -18px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
-}
 
-.Témoignages{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.milieu{
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    text-align: center;
-}
-
-.icone{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    text-align: center;
-    margin-left: 250px;
-}
-
-.notraicone{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: black;
-    background-image: url(../image/images.jpg);
-    background-size: cover;
-}
-.samps{
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-}
 
 /* Contactez-nous */
-.Contactez-nous{
-    background-color: white;
-    /*padding-left: 80px;*/
-    margin-left: -50px;
-    padding-right: 80px;
-    display: flex;
-    padding-top: 50px;
-}
 
-.imour{
-    padding-top: 100px;
-}
-
-.paraminni{
-    font-size: 14px;
-    align-items: center;
-}
-
-.tableau{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 150px;
-}
-
-.table1, .table2, .table3{
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-     border-color: black ;
-    border: 2px solid;
-}
-
-.table4{
-    padding-bottom: 90px;
-    padding-top: 10px;
-    margin-bottom: 10px;
-    border-color: black ;
-    border: 2px solid;
-}
-
-.buttonend{
-    background-color: black;
-    color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 150px;
-}
-
-.mooooooo{
-    display: flex;
-    gap: 30px;
-}
-
-.grand{
-    font-size: 24px;
-}
-
-.miroo{
-    display: flex;
-    gap: 20px;
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 /* Bas du Page */
 .Bas-du-Page{

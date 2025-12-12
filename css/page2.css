@@ -1,0 +1,32 @@
+.Services{
+    background-color: white;
+    color: black;
+    margin-bottom: -23px;
+    /*padding-left: 80px;
+    padding-right: 80px;*/
+}
+
+.section-service{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 14px;
+}
+
+.dic-sevice1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.service2{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titre-h3{
+    font-size: 25px;
+}
+
+.attribue{
+    font-weight: bold;
+}

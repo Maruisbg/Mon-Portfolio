@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteneur {
+  display: flex;
+  height: 120vh;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#partie1 {
+  width: 34%;
+  height: 100%;
+  border-width: 0.5px;
+  background-color: #09173f;
+  border-right: red;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-width: 2px;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url(../image/WhatsApp\ Image\ 2025-11-18\ à\ 08.36.22_bbe251b0.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.contact,.hobby,.langues {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding: 12px;
+}
+
+.contact h2,.hobby h2,.langues h2 {
+  margin-bottom: 15px;
+  border: 2px solid orange;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+
+.partie2 {
+  width: 66%;
+  height: 100%;
+  border-width: 0.5px;
+  background-color: rgb(224, 218, 206);
+  border-color: red;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+h1 {
+margin-bottom: 20px;
+text-transform: uppercase;
+font-size: 28px;
+padding: 2px;
+}
+
+.formation h2, .competences h2 {
+margin-bottom: 15px;
+border-top: 1px;
+border-radius: 50px;
+text-align: center;
+font-size: 14px;
+padding: 5px;
+text-transform: uppercase;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+background-color: #09173f;
+color: white;
+}
+
+.partie2{
+    padding: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#nooor{
+    color: rgb(228, 175, 41);
+    font-weight: bold;
+}
+
+#enbasprofil{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#dooo, #doy {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: white;
+    background-color: black;
+    width: fit-content;
+}
+
+#ger {
+    list-style-type: disc;
+    margin-left: 100px;
+}
+
+#sist {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.dsvgr, #sist, #ger {
+display: flex;
+}
+
+h4 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.orange_bloic {
+    background-color: orange;
+    padding: 140px;
+    width: 16px;
+    margin-left: 368px;
+    margin-top: -666px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
