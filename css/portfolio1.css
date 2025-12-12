@@ -1,12 +1,11 @@
 
- @media (max-width: 768px) {
-    body {
-      background-color: lightblue;
-}
-}
 
 
-body {
+
+
+
+
+ @media (max-width: 768px) {body {
 /*width: 700px;
 height: 100vh;*/
 margin-left: auto;
@@ -14,12 +13,12 @@ margin-right: auto;
 background-color: beige;
 font-family: "poppins";
 }
+}
+
 
 /*.conteneur {
     width: 1000px;
     height: 200vh;
-    background-color: white;
-    
 }*/
 
 .Barre-de-navigation {
